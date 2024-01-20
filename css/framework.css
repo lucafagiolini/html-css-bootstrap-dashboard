@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+* ul {
+    list-style: none;
+    padding-left: 0 !important;
+}
+
 /* reset */
 
 
@@ -13,9 +18,4 @@
     border: dashed 1px rgb(0, 0, 0);
     background-color: rgba(255, 0, 0, 0.2);
     /* test */
-}
-
-
-body {
-    background-color: #282828 !important;
 }

@@ -1,5 +1,29 @@
 body {
     background-color: #282828 !important;
+    color: white;
 }
 
 /* salva retina */
+
+/* NAV */
+#side-nav {
+    width: 150px;
+}
+
+/* END NAV */
+
+
+/* MAIN */
+main {
+    min-width: calc(100vw - 150px) !important;
+}
+
+
+
+/* END MAIN */
+
+
+/* MAIN HEADER */
+
+
+/* END MAIN HEADER */
