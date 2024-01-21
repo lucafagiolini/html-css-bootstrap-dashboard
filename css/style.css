@@ -6,24 +6,45 @@ body {
 /* salva retina */
 
 /* NAV */
-#side-nav {
-    width: 150px;
+#navbar {
+    height: 60px;
+    z-index: 20;
+
 }
 
 /* END NAV */
 
 
-/* MAIN */
-main {
-    min-width: calc(100vw - 150px) !important;
+
+
+/* DASHBOARD */
+#dashboard {
+    max-width: calc(100vw - 150px);
+    padding-top: 60px;
+    margin-left: 150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 100vh;
 }
 
+/* HEADER MAIN */
+#header-main {
+    background-color: #1d72e8;
+}
+
+/* INFO */
+#info {}
+
+/* END DASHBOARD */
 
 
-/* END MAIN */
 
 
-/* MAIN HEADER */
+/* SIDE NAV */
+#side-nav {
+    padding-top: 60px;
+    width: 150px;
+    z-index: 10;
+}
 
-
-/* END MAIN HEADER */
+/* END SIDE NAV */

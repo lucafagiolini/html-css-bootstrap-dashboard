@@ -20,8 +20,9 @@
     <script src="https://kit.fontawesome.com/39dc9eb8ed.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<body class="min-vw-100 position-relative">
+    <nav id="navbar"
+        class=" d-flex navbar position-absolute top-0 start-0 my-0 min-vw-100 navbar-expand-lg bg-body-tertiary ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -62,8 +63,113 @@
             </div>
         </div>
     </nav>
-    <div class="d-flex">
-        <nav id="side-nav" class="">
+
+
+
+
+    <main id="dashboard" class="">
+        <!-- HEADER MAIN -->
+        <section id="header-main" class="">
+            <div class="row">
+                <div class="col-6">
+                    <div>
+                        <h1>boolean</h1>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>3 app</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div>
+                        <p>Studenti</p>
+                    </div>
+                    <div>
+                        <p>125</p>
+                    </div>
+                </div>
+
+                <div class="col-2 flex-nowrap">
+                    <div>
+                        <p>nuovo studente</p>
+                    </div>
+                    <div>
+                        <p>btn</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- INFO -->
+        <section id="info" class="test row min-vh-100 ">
+            <div class="col-8">
+                <!-- PROSSIME CLASSI -->
+                <div>
+                    <div>
+                        <h2>prossime classi</h2>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>classe 75</li>
+                            <li>classe 76</li>
+                            <li>classe 77</li>
+                            <li>classe 78</li>
+                            <li>classe 79</li>
+                            <li>classe 80</li>
+                            <li>classe 81</li>
+                            <li>classe 82</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- FAQ -->
+                <div>
+                    <div>
+                        <h2>faq</h2>
+                    </div>
+                    <div>
+                        come
+                    </div>
+                    <div>
+                        come
+                    </div>
+                    <div>
+                        posso
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <!-- TODO -->
+                <div>
+                    <div>
+                        <h2>todo</h2>
+                    </div>
+                    <ul>
+                        <li>kickoff</li>
+                        <li>lezione</li>
+                        <li>conotrollare</li>
+                    </ul>
+
+                </div>
+                <!-- STATS -->
+                <div>
+                    <div>
+                        <img class="img-fluid" src="./img/stats.jpeg" alt="stats">
+                        <h3>ultimi attivi</h3>
+                        <p>lista utenti attivi in piattaforma nell'ultimo mese</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+
+    <div id="side-nav" class="d-flex min-vh-100 position-absolute top-0 start-0">
+        <nav class="">
             <ul>
                 <li class="d-flex flex-nowrap">
                     <div>
@@ -77,62 +183,8 @@
                 <li>signals</li>
             </ul>
         </nav>
-        <main class="container min-vh-100">
-            <!-- HEADER MAIN -->
-            <section class="test">
-                <div class="row">
-                    <div class="col-6">
-                        <div>
-                            <h1>boolean</h1>
-
-                        </div>
-                        <div>
-                            <ul>
-                                <li>3 app</li>
-                            </ul>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-4">
-                        <div>
-                            <p>Studenti</p>
-                        </div>
-                        <div>
-                            <p>125</p>
-                        </div>
-
-                    </div>
-
-                    <div class="col-2 flex-nowrap">
-                        <div>
-                            <p>nuovo studente</p>
-
-                        </div>
-                        <div>
-                            <p>btn</p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </section>
-
-
-
-
-
-
-
-
-
-
-
-        </main>
     </div>
+
 
 
 

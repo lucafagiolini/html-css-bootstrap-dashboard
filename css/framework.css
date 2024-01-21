@@ -11,6 +11,11 @@
 
 /* reset */
 
+.position-absolute {
+    border: dashed 1px black;
+    background-color: rgba(0, 255, 0, 0.2);
+}
+
 
 
 /* test rules */
