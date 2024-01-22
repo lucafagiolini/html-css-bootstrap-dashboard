@@ -1,6 +1,6 @@
 body {
-    max-width: 100vw;
-    max-height: 100vh;
+    height: 100%;
+
     background-color: #282828 !important;
     color: white;
 }
@@ -10,8 +10,6 @@ body {
 /* NAV */
 #navbar {
     height: 60px;
-    z-index: 20;
-
 }
 
 #lens-nav {
@@ -35,14 +33,12 @@ body {
 
 /* DASHBOARD */
 #dashboard {
-    max-width: calc(100vw - 150px);
-
-    margin-left: 150px;
-    overflow-y: auto;
-    overflow-x: hidden;
-    max-height: 100vh;
-
+    height: calc(100vh - 60px);
     background-color: dimgrey;
+}
+
+main {
+    overflow-y: auto;
 }
 
 /* HEADER MAIN */
@@ -60,9 +56,12 @@ body {
 
 /* SIDE NAV */
 #side-nav {
-    padding-top: 60px;
     width: 150px;
-    z-index: 10;
+    height: 100%;
+
+    background-color: #003e942f;
+    filter: saturate(1.5);
+    background-image: url('../img/sidebar-bg.png');
 }
 
 /* END SIDE NAV */

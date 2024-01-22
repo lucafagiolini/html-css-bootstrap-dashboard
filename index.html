@@ -20,7 +20,8 @@
     <script src="https://kit.fontawesome.com/39dc9eb8ed.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="min-vw-100 position-relative overflow-hidden">
+<body class="">
+
     <nav id="navbar" class=" d-flex navbar top-0 start-0 my-0 min-vw-100 navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="./img/logo.svg" alt="logo-boolean"></a>
@@ -83,126 +84,133 @@
     </nav>
 
 
+    <section id="dashboard" class=" d-flex ">
 
-
-    <main id="dashboard" class="min-vh-100">
-        <!-- HEADER MAIN -->
-        <section id="header-main" class="">
-            <div class="row">
-                <div class="col-6">
-                    <div>
-                        <h1>boolean</h1>
-                    </div>
-                    <div>
-                        <ul>
-                            <li>3 app</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-4">
-                    <div>
-                        <p>Studenti</p>
-                    </div>
-                    <div>
-                        <p>125</p>
-                    </div>
-                </div>
-
-                <div class="col-2 flex-nowrap">
-                    <div>
-                        <p>nuovo studente</p>
-                    </div>
-                    <div>
-                        <p>btn</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- INFO -->
-        <section id="info" class="">
-            <div class="row min-vh-100">
-                <div class="col-lg-8">
-                    <!-- PROSSIME CLASSI -->
-                    <div class="test">
+        <div id="side-nav" class="d-flex justify-content-center">
+            <nav class="d-flex px-3 py-3 flex-column justify-content-between flex-wrap">
+                <ul class="flex-grow-1">
+                    <li class="d-flex flex-nowrap">
                         <div>
-                            <h2>prossime classi</h2>
+                            icona
+                        </div>
+                        <div>
+                            home
+                        </div>
+                    </li>
+                    <li>stats</li>
+                    <li>signals</li>
+                </ul>
+                <div>
+                    <a href="#">admin</a>
+
+                </div>
+            </nav>
+        </div>
+
+        <main class="overflow-x-hidden">
+
+            <!-- HEADER MAIN -->
+            <section id="header-main" class="">
+                <div class="row py-2">
+                    <div class="col-6">
+                        <div>
+                            <h1>boolean</h1>
                         </div>
                         <div>
                             <ul>
-                                <li>classe 75</li>
-                                <li>classe 76</li>
-                                <li>classe 77</li>
-                                <li>classe 78</li>
-                                <li>classe 79</li>
-                                <li>classe 80</li>
-                                <li>classe 81</li>
-                                <li>classe 82</li>
+                                <li>3 app</li>
                             </ul>
                         </div>
                     </div>
-                    <!-- FAQ -->
-                    <div class="test-2">
+
+                    <div class="col-4">
                         <div>
-                            <h2>faq</h2>
+                            <p>Studenti</p>
                         </div>
                         <div>
-                            come
+                            <p>125</p>
+                        </div>
+                    </div>
+
+                    <div class="col-2 flex-nowrap">
+                        <div>
+                            <p>nuovo studente</p>
                         </div>
                         <div>
-                            come
-                        </div>
-                        <div>
-                            posso
+                            <p>btn</p>
                         </div>
                     </div>
                 </div>
+            </section>
 
-                <div class="col-lg-4">
-                    <!-- TODO -->
-                    <div class="test-3">
-                        <div>
-                            <h2>todo</h2>
+            <!-- INFO -->
+            <section id="info" class="">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <!-- PROSSIME CLASSI -->
+                        <div class="test">
+                            <div>
+                                <h2>prossime classi</h2>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li>classe 75</li>
+                                    <li>classe 76</li>
+                                    <li>classe 77</li>
+                                    <li>classe 78</li>
+                                    <li>classe 79</li>
+                                    <li>classe 80</li>
+                                    <li>classe 81</li>
+                                    <li>classe 82</li>
+                                </ul>
+                            </div>
                         </div>
-                        <ul>
-                            <li>kickoff</li>
-                            <li>lezione</li>
-                            <li>conotrollare</li>
-                        </ul>
-
+                        <!-- FAQ -->
+                        <div class="test-2">
+                            <div>
+                                <h2>faq</h2>
+                            </div>
+                            <div>
+                                come
+                            </div>
+                            <div>
+                                come
+                            </div>
+                            <div>
+                                posso
+                            </div>
+                        </div>
                     </div>
-                    <!-- STATS -->
-                    <div class="test-4">
-                        <div>
-                            <img class="img-fluid" src="./img/stats.jpeg" alt="stats">
-                            <h3>ultimi attivi</h3>
-                            <p>lista utenti attivi in piattaforma nell'ultimo mese</p>
+
+                    <div class="col-lg-4">
+                        <!-- TODO -->
+                        <div class="test-3">
+                            <div>
+                                <h2>todo</h2>
+                            </div>
+                            <ul>
+                                <li>kickoff</li>
+                                <li>lezione</li>
+                                <li>conotrollare</li>
+                            </ul>
+
+                        </div>
+                        <!-- STATS -->
+                        <div class="test-4">
+                            <div>
+                                <img class="img-fluid" src="./img/stats.jpeg" alt="stats">
+                                <h3>ultimi attivi</h3>
+                                <p>lista utenti attivi in piattaforma nell'ultimo mese</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </main>
+            </section>
+        </main>
+    </section>
 
 
 
-    <div id="side-nav" class="d-flex min-vh-100 position-absolute top-0 start-0">
-        <nav class="">
-            <ul>
-                <li class="d-flex flex-nowrap">
-                    <div>
-                        icona
-                    </div>
-                    <div>
-                        home
-                    </div>
-                </li>
-                <li>stats</li>
-                <li>signals</li>
-            </ul>
-        </nav>
-    </div>
 
 
 
