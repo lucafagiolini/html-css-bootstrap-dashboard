@@ -87,22 +87,55 @@
     <section id="dashboard" class=" d-flex ">
 
         <div id="side-nav" class="d-flex justify-content-center">
-            <nav class="d-flex px-3 py-3 flex-column justify-content-between flex-wrap">
+            <nav class="d-flex px-3 px-sm-3 px-md-3 py-3 col-auto flex-column justify-content-between flex-wrap">
                 <ul class="flex-grow-1">
                     <li class="d-flex flex-nowrap">
-                        <div>
-                            icona
-                        </div>
-                        <div>
-                            home
-                        </div>
+                        <button type="button"
+                            class="btn btn-outline-light border-0 d-flex justify-content-start align-content-center gap-2 flex-grow-1 text-capitalize fs-6">
+                            <div>
+                                <i class="fa-solid fa-house"></i>
+                            </div>
+                            <div class="collapse_side">
+                                home
+                            </div>
+                        </button>
                     </li>
-                    <li>stats</li>
-                    <li>signals</li>
-                </ul>
-                <div>
-                    <a href="#">admin</a>
 
+                    <li class="d-flex flex-nowrap text-capitalize">
+                        <button type="button"
+                            class=" btn btn-outline-light border-0 d-flex justify-content-start align-content-center gap-2 flex-grow-1 text-capitalize fs-6">
+                            <div>
+                                <i class="fa-solid fa-chart-simple"></i>
+                            </div>
+                            <div class="collapse_side">
+                                stats
+                            </div>
+                        </button>
+                    </li>
+
+                    <li class="d-flex flex-nowrap text-capitalize">
+                        <button type="button"
+                            class="btn btn-outline-light border-0 d-flex justify-content-start align-content-center gap-2 flex-grow-1 text-capitalize fs-6">
+                            <div>
+                                <i class="fa-solid fa-signal"></i>
+                            </div>
+                            <div class="collapse_side">
+                                signals
+                            </div>
+                        </button>
+                    </li>
+                </ul>
+
+                <div>
+                    <button type="button"
+                        class="btn btn-outline-light border-0 d-flex justify-content-start align-content-center gap-2 flex-grow-1 text-capitalize fs-6">
+                        <div>
+                            <i class="fa-solid fa-signal"></i>
+                        </div>
+                        <div class="collapse_side">
+                            signals
+                        </div>
+                    </button>
                 </div>
             </nav>
         </div>
@@ -117,9 +150,15 @@
                             <h1>boolean</h1>
                         </div>
                         <div>
-                            <ul>
-                                <li>3 app</li>
-                            </ul>
+                            <nav class=" text-white" style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a class="text-white text-decoration-none"
+                                            href="#">Home</a></li>
+                                    <li class="breadcrumb-item active text-white" aria-current="page"></li>
+                                    <li class="breadcrumb-item active text-white" aria-current="page">Library</li>
+                                    <li class="breadcrumb-item active text-white" aria-current="page">Library</li>
+                                </ol>
+                            </nav>
                         </div>
                     </div>
 

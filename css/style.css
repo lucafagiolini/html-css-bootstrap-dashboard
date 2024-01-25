@@ -38,6 +38,7 @@ body {
 }
 
 main {
+    width: 100%;
     overflow-y: auto;
 }
 
@@ -45,6 +46,13 @@ main {
 #header-main {
     background-color: #1d72e8;
 }
+
+#header-main * li {
+    background-color: rgba(4, 4, 231, 0.222);
+    border-radius: 20px;
+}
+
+
 
 /* INFO */
 
@@ -56,12 +64,17 @@ main {
 
 /* SIDE NAV */
 #side-nav {
-    width: 150px;
     height: 100%;
 
-    background-color: #003e942f;
-    filter: saturate(1.5);
+    background-color: #00183a;
     background-image: url('../img/sidebar-bg.png');
 }
 
 /* END SIDE NAV */
+
+
+@media screen and (max-width: 768px) {
+    .collapse_side {
+        display: none;
+    }
+}
