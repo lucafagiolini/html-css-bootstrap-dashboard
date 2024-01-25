@@ -47,9 +47,8 @@ main {
     background-color: #1d72e8;
 }
 
-#header-main * li {
+#header-main * span {
     background-color: rgba(4, 4, 231, 0.222);
-    border-radius: 20px;
 }
 
 
